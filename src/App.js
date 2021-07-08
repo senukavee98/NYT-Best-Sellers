@@ -30,7 +30,7 @@ const App = ()  => {
   return (
     <div className="books-outer-wrapper">
       <div>
-        <h1> NYTimes Best Seller </h1>
+        <h2> NYTimes Best Seller - Hardcover Fiction </h2>
         {
           loading ? (
             <Space size="middle">
