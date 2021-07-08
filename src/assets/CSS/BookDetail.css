@@ -1,0 +1,65 @@
+
+.books-outer-wrapper {
+    margin: 50px
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    padding-top: 10px;
+    height: 180px;
+}
+
+.flex-container > div {
+    line-height: 25px;
+}
+
+.img {
+    max-width: 75%;  
+    height: auto; 
+}
+
+span {
+    display: block;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
+.book-author {
+    color: #d3d3d3;
+    font-size: 13px;
+}
+
+.book-Description {
+    font-size: 13px;
+}
+
+.btn-review {
+    background-color: black;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    margin: 21px 0;
+    cursor: pointer;
+}
+
+.btn-review:disabled {
+    background-color: lightgrey;
+    color: black;
+    height: 29px;
+    cursor: default;
+}
+
+.spinner {
+    align-items: center;
+}
+
+hr {
+    margin-top: 0px;
+    border-top: 1px solid #979996;
+    opacity: 0.2;
+}
